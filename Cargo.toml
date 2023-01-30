@@ -1,8 +1,13 @@
 [package]
-name = "sshc-rust"
+name = "sshc"
 version = "0.1.0"
+description = ""
+authors = ["NightFoxDev"]
+license = "MPL-2.0"
+license-file = "LICENSE"
+repository = ""
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
+crossterm = "0.26.0"
+terminal-menu = "2.0.5"
